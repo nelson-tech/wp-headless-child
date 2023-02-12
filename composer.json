@@ -1,0 +1,39 @@
+{
+  "name": "nelson.tech/headless-child",
+  "description": "Child theme for headless WP installs.",
+  "keywords": [
+    "wordpress",
+    "theme",
+    "child",
+    "headless",
+    "graphql",
+    "wpgraphql",
+    "wp-graphql"
+  ],
+  "homepage": "https://github.com/nelson.tech/wp-headless-child/",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Michael Nelson",
+      "email": "michael@nelson.tech",
+      "homepage": "https://nelson.tech"
+    }
+  ],
+  "type": "wordpress-theme",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "composer/installers": "^2.2",
+    "wpackagist-theme/storefront": "^4.2"
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true
+    }
+  }
+}

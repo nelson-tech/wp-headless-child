@@ -1,0 +1,38 @@
+/*
+ Theme Name:   nelson.tech
+ Theme URI:    https://github.com/nelson.tech/wp-headless-child/
+ Description:  Child theme, based on Storefront
+ Author:       Michael Nelson
+ Author URI:   https://nelson.tech
+ Template:     storefront
+ Version:      1.0.0
+ Tags:         black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-l>
+ Text Domain:  nelson-tech
+*/
+
+/* Cart widget */
+.woocommerce-mini-cart__total {
+	display: none;
+}
+
+/* Cart */
+.product-price, .product-subtotal {
+	display: none !important;
+}
+
+/* Checkout */
+.product-total *, th.product-total {
+	display: none;
+}
+
+.cart-subtotal {
+  display: none;
+}
+
+.order-total {
+  display: none;
+}
+
+#payment > ul > li > label {
+  display: none;
+}
