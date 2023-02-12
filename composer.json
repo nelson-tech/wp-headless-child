@@ -1,5 +1,5 @@
 {
-  "name": "nelson.tech/headless-child",
+  "name": "nelson-tech/headless-child",
   "description": "Child theme for headless WP installs.",
   "keywords": [
     "wordpress",
@@ -10,7 +10,7 @@
     "wpgraphql",
     "wp-graphql"
   ],
-  "homepage": "https://github.com/nelson.tech/wp-headless-child/",
+  "homepage": "https://github.com/nelson-tech/wp-headless-child/",
   "license": "GPL-2.0+",
   "authors": [
     {
