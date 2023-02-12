@@ -1,0 +1,46 @@
+
+/composer.lock
+.idea
+wp-cli.local.yml
+
+# Exclude sensitive data
+.env
+.env.*
+!.env.example
+config/keys.php
+auth.json
+
+# Exclude composer dependencies in the vendor directory
+/vendor
+
+# Exclude WordPress core
+public/wp
+public/.htaccess
+wp-content
+
+# Include wp-content, then exclude each of the subdirectories
+!public/content
+public/content/*
+
+## Themes
+!public/content/themes
+public/content/themes/*
+# Include custom themes here
+!public/content/themes/deliciousbrains
+
+## Plugins
+!public/content/plugins
+public/content/plugins/*
+# Include custom plugins here
+
+## MU Plugins
+!public/content/mu-plugins
+public/content/mu-plugins/*
+# Include custom mu-plugins here
+!public/content/mu-plugins/app.php
+
+## Uploads
+!public/content/uploads
+public/content/uploads/*
+# Include custom uploads here
+!public/content/uploads/.gitkeep
